@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowise Full Chatbot</title>
+</head>
+<body>
+    <flowise-fullchatbot></flowise-fullchatbot>
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+        Chatbot.initFull({
+            chatflowid: "4a6b01e2-0091-49de-8bc8-73a6bad6d828",
+            apiHost: "https://ubase-test.onrender.com",
+        });
+    </script>
+</body>
+</html>
